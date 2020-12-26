@@ -1,6 +1,10 @@
-body{
-  background: black;
-}
-.block{
-  background: scr="image.jpg";
+
+
+
+
+
+.box{
+  background-image: url(../port/images/image.jpg);
+  padding: 100px;
+  margin: 100px;
 }
