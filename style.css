@@ -1,5 +1,11 @@
-.wrapper{
-  widows: 100%;
+HTML {
+  width: 100%;
   height: 100%;
-  background: linear-gradient(to right, black 50%, red 50%)
+}
+body {
+  background: -webkit-gradient(bottom, black 50%, white 50%);
+  background: -o-linear-gradient(bottom, black 50%, white 50%);
+  background: linear-gradient(to right,#A0522D 50%, #f1ac7a 50%);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
 }
