@@ -1,6 +1,6 @@
 body{
-  
-  height: 100%;
+  background: black;
 }
-body{
-  background:black
+.block{
+  background: scr="image.jpg";
+}
