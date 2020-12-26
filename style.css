@@ -1,11 +1,7 @@
-HTML {
-  width: 100%;
+body{
+  
   height: 100%;
 }
-body {
-  background: -webkit-gradient(bottom, black 50%, white 50%);
-  background: -o-linear-gradient(bottom, black 50%, white 50%);
-  background: linear-gradient(to right,#A0522D 50%, #f1ac7a 50%);
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+body{
+  background: linear-gradient(to right,#080707 60%, hsl(24, 5%, 81%) 40%);
 }
