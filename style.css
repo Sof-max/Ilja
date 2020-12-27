@@ -1,5 +1,5 @@
 body{
-  background-color: black;
+  background-color: rgb(128, 116, 96);
   color: white;
   font-size: 21px;
 }
@@ -11,4 +11,34 @@ body{
 
   background-repeat: no-repeat;
   background-position: center;
+}
+
+h1{
+  font-weight: lighter;
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  padding-top: 50px; 
+  margin-bottom: 0%;
+}
+
+p{
+  color: #fff;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: lighter;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+li{
+  list-style: none;
+  margin: 10px 30px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px 20px;
+  color: #fff;
+  border: 1px splid #fff;
+  border-radius: 50%;
+  transition: .5s;
 }
