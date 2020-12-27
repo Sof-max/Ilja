@@ -40,8 +40,8 @@ h1{
 }
 
 .nav{
-  width: 100%;
-  overflow-x: visible;
+  width: 0%;
+  overflow-x: hidden;
   height: 100vh;
   z-index: 1;
   position: fixed;
@@ -51,8 +51,22 @@ h1{
 }
 .nav a{
   color: #fff;
-  font-size: 20px;
+  font-size: 24px;
   text-decoration: none;
+  display: block;
+  font-family: Source Sans Pro;
+  padding: lem 0;
+  transition: .3s;
+  clear: left;
+
+}
+.close{
+  float: left;
+  margin: lem 0 0 lem;
+}
+
+.nav a:not(:first-child):hover{
+  background: #b37020;
 }
 
 p{
