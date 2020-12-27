@@ -23,6 +23,7 @@ h1{
   text-align: center;
   padding-top: 10px; 
   margin-bottom: 0%;
+
 }
 
 
@@ -59,7 +60,7 @@ h1{
 
 .overlay a:hover,
 .overlay a:focus {
-  color: #aca0a0;
+  color: #920b0b;
 }
 
 
