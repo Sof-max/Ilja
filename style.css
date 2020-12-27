@@ -31,6 +31,13 @@ p{
   margin-top: 0;
 }
 
+.media{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-53%, -50%);
+}
+
 li{
   list-style: none;
   margin: 10px 30px;
@@ -40,5 +47,11 @@ li{
   color: #fff;
   border: 1px splid #fff;
   border-radius: 50%;
+  transition: .5s;
+}
+
+li:hover{
+  color: #292929;
+  border: 1px solid #292929;
   transition: .5s;
 }
