@@ -8,24 +8,31 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="https://kit.fontawesome.com/a899b17c17.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="images/image.jpg">
+  <link rel="stylesheet" href="style.js">
 </head>
 
 <body>
-  <a href="">Home</a>
-  <a href="">About</a>
-  <a href="">Folow</a>
-</body>
+  <!-- The overlay -->
+  <div id="myNav" class="overlay">
 
-<body>
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-  <h1>Portfolio</h1>
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+
+  </div>
+
+  <!-- Use any element to open/show the overlay navigation menu -->
+  <span onclick="openNav()">open</span>
   <!--- <a href="https://www.facebook.com/petrishevasofia "> <i class="fab fa-instagram"></i></a>
   <a href=""><i class="far fa-envelope"></i></a>
   <a href=""> <i class="fab fa-github-square"></i> </a> -->
-  <h1>Text</h1>
-  <div class="box"></div>
 
-  </div>
 </body>
 
 </html>
