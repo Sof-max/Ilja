@@ -1,14 +1,12 @@
 body{
-  background-color: rgb(223, 119, 71);
+  background-color: rgb(29, 45, 51);
   color: white;
   font-size: 21px;
 }
 
 .box{
-  background-image: url(images/image2.jpg);
   padding: 200px 100px;
   margin: 100px;
-
   background-repeat: no-repeat;
   background-position: center;
 }
