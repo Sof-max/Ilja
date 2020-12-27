@@ -39,6 +39,22 @@ h1{
   cursor: pointer;
 }
 
+.nav{
+  width: 100%;
+  overflow-x: visible;
+  height: 100vh;
+  z-index: 1;
+  position: fixed;
+  background: rgba(34, 65, 93, 0.9);
+  transition: .3s;
+  display: block;
+}
+.nav a{
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
 p{
   color: #fff;
   text-align: center;
