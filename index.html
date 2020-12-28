@@ -41,33 +41,7 @@
 
   <div id="main"></div>
 
-  <script>
 
-    container = document.getElementById("main");
-
-    var text = new Blotter.Text("Sofia", {
-      family: "serif",
-      size: 280,
-      fill: "#fff",
-      paddingLeft: 80,
-      paddingRight: 80,
-      paddingTop: 80,
-      paddingBottom: 80
-    });
-
-    var material = new Blotter.FliesMaterial();
-    material.uniforms.uPointCellWidth.value = 0.01;
-    material.uniforms.uPointRadius.value = 0.4;
-    material.uniforms.uSpeed.value = 4;
-
-    var blotter = new Blotter(material, {
-      texts: text
-    });
-
-    var scope = blotter.forText(text);
-    scope.appendTo(container);
-
-  </script>
 
   <div class="image6">
     <h1>Text</h1>
@@ -87,6 +61,34 @@
     </div>
 
     <!-- End Content -->
+
+    <script>
+
+      container = document.getElementById("main");
+
+      var text = new Blotter.Text("Sofia", {
+        family: "serif",
+        size: 280,
+        fill: "#fff",
+        paddingLeft: 80,
+        paddingRight: 80,
+        paddingTop: 80,
+        paddingBottom: 80
+      });
+
+      var material = new Blotter.FliesMaterial();
+      material.uniforms.uPointCellWidth.value = 0.01;
+      material.uniforms.uPointRadius.value = 0.4;
+      material.uniforms.uSpeed.value = 4;
+
+      var blotter = new Blotter(material, {
+        texts: text
+      });
+
+      var scope = blotter.forText(text);
+      scope.appendTo(container);
+
+    </script>
 
   </div>
 

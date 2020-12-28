@@ -23,6 +23,8 @@ h1{
   text-align: center;
   padding-top: 10px; 
   margin-bottom: 0%;
+  max-width: auto;
+  min-width:auto;
 
 }
 
