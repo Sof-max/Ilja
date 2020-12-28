@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="images/image6.jpg">
+  <script src="https://cdn.rawgit.com/bradley/Blotter/master/build/blotter.min.js"></script>
+  <script src="https://cdn.rawgit.com/bradley/Blotter/3007fe6e/build/materials/fliesMaterial.js"></script>
   <style>
     h1 {
       text-align: center;
@@ -37,6 +39,36 @@
   </script>
   <!--End navigation-->
 
+  <div id="main"></div>
+
+  <script>
+
+    container = document.getElementById("main");
+
+    var text = new Blotter.Text("Sofia", {
+      family: "serif",
+      size: 280,
+      fill: "#fff",
+      paddingLeft: 80,
+      paddingRight: 80,
+      paddingTop: 80,
+      paddingBottom: 80
+    });
+
+    var material = new Blotter.FliesMaterial();
+    material.uniforms.uPointCellWidth.value = 0.01;
+    material.uniforms.uPointRadius.value = 0.4;
+    material.uniforms.uSpeed.value = 4;
+
+    var blotter = new Blotter(material, {
+      texts: text
+    });
+
+    var scope = blotter.forText(text);
+    scope.appendTo(container);
+
+  </script>
+
   <div class="image6">
     <h1>Text</h1>
 
@@ -57,6 +89,8 @@
     <!-- End Content -->
 
   </div>
+
+
 
 </body>
 
