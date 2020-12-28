@@ -130,13 +130,10 @@ a {
   font-size: 20px;
   padding: 20px 20px;
   color: #ffffff;
-  border: 1px solid #ffffff;
-  border-radius: 50%;
   transition: .5s;
 }
 
 a:hover{
  color: #292929;
- border: 1px solid #292929;
  transition: .5s
 }
