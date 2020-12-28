@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="images/myphoto.jpg">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://cdn.rawgit.com/bradley/Blotter/master/build/blotter.min.js"></script>
   <script src="https://cdn.rawgit.com/bradley/Blotter/3007fe6e/build/materials/fliesMaterial.js"></script>
   <style>
@@ -19,13 +20,20 @@
 <body>
   <!-- NAvigation-->
   <div id="myNav" class="overlay">
+    <!--class= nav_menu, nav_link-->
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
     <div class="overlay-content">
-      <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
-      <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
-      <li class="nav_item"><a href="#contact" class="nav_link">Contacts</a></li>
+      <a href="#home" class="">Home</a>
+      <a href="#about" class="">About</a>
+      <a href="#contact" class="">Contacts</a>
     </div>
 
+
+    <div class="wrapper">
+
+
+
+    </div>
 
 
   </div>
@@ -41,24 +49,25 @@
     function closeNav() {
       document.getElementById("myNav").style.display = "none";
     }
+
+
   </script>
   <!--End navigation-->
 
   <div id="main"></div>
 
-
-
-  <div class="image6">
-    <h1>Text</h1>
-
-  </div>
-
-  <!-- Start Content -->
   <div id="home" class="w3-content">
+    <div class="image6">
+      <h1 class="w3-centent">Text</h1>
+
+    </div>
+
+    <!-- Start Content -->
+
 
     <!-- About -->
     <div id="about" class="navig" class="myphoto">
-      <h1 class="w3-center">About Myself</h1>
+      <h1 class="navig">About Myself</h1>
       <img src="images/myphoto.jpg" alt="me" width="400" height="550" class="imgagemy">
       <p>This is our band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -70,6 +79,17 @@
 
   <div class="footer">
     <p>Footer</p>
+    <div class="media">
+      <ul>
+        <li><i class="fab fa-facebook-f" aria-hidden="true"></i></li>
+        <li><i class="fas fa-at" aria-hidden="true"></i></li>
+        <li><i class="fab fa-instagram" aria-hidden="true"></i></li>
+        <li><i class="fab fa-github" aria-hidden="true"></i></li>
+
+      </ul>
+
+
+    </div>
   </div>
 
   <footer></footer>
