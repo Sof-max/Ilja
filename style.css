@@ -15,9 +15,8 @@ body{
 
   min-height: 100vh;
 
-  display:flex;
-  flex-direction: column;
-  
+ display: flex;
+ flex-direction: column;
 }
 
 .image6{
@@ -44,7 +43,10 @@ h1{
 
 }
 
-
+p {
+  margin: 10px;
+  text-align: left;
+}
 .overlay {
  
   height: 100%;
