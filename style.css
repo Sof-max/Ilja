@@ -90,3 +90,9 @@ h1{
   }
 }
 
+.myphoto{
+  background-image: url(images/myphoto.jpg);
+  padding: 100px 100px;
+  margin: 100px;
+
+}
