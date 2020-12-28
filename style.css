@@ -90,8 +90,9 @@ h1{
   }
 }
 
-div {
-  padding-top: 165px;
-  text-align: center;
- 
+.scrippo{
+  position: absolute;
+  text-emphasis: none;
+ padding-top:165px ;
+ text-align: center;
 }
