@@ -4,54 +4,36 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="images/myphoto.jpg">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://cdn.rawgit.com/bradley/Blotter/master/build/blotter.min.js"></script>
-  <script src="https://cdn.rawgit.com/bradley/Blotter/3007fe6e/build/materials/fliesMaterial.js"></script>
-  <style>
-    h1 {
-      text-align: center;
-    }
-  </style>
 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css>
 </head>
 
 
 <body>
-  <!-- NAvigation-->
-  <div id="myNav" class="overlay">
-    <!--class= nav_menu, nav_link-->
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-    <div class="overlay-content">
-      <a href="#home" class="">Home</a>
-      <a href="#about" class="">About</a>
-      <a href="#contact" class="">Contacts</a>
-    </div>
+ <!--Navigation-->
+
+  <div id=" myNav" class="overlay">
+
+  <!--class= nav_menu, nav_link-->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <div class="overlay-content">
+    <a href="#home" class="" onclick="closeNav()" closeNav()>Home</a>
+    <a href="#about" class="" onclick="closeNav()">About</a>
+    <a href="#contact" class="" onclick="closeNav()">Contact</a>
+  </div>
+
+  <div class=" wrapper">
 
 
-    <div class="wrapper">
 
-
-
-    </div>
+  </div>
 
 
   </div>
   <span style="font-size:30px;cursor:pointer; float: left; margin: 10px;" id="mainbox" class="openbtn"
     onclick="openNav()">&#9776 </span>
 
-  <script>
-    function openNav() {
-      document.getElementById("myNav").style.display = "block";
 
-    }
-
-    function closeNav() {
-      document.getElementById("myNav").style.display = "none";
-    }
-
-
-  </script>
   <!--End navigation-->
 
   <div id="main"></div>
@@ -70,7 +52,8 @@
       <h1 class="navig">About Myself</h1>
       <img src="images/myphoto.jpg" alt="me" width="400" height="550" class="imgagemy">
       <p>This is our band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris
         nisi ut aliquip ex ea commodo consequat.</p>
     </div>
   </div>
@@ -98,7 +81,7 @@
 
 
 
-  <div class="footer">
+  <div class="footer" id="contact">
     <p>Follow Me</p>
     <div class="media">
       <ul>
@@ -114,7 +97,19 @@
   </div>
 
   <footer></footer>
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.display = "block";
 
-</body>
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.display = "none";
+    }
+
+
+  </script>
+
+  </body>
 
 </html>
