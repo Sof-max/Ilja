@@ -10,21 +10,22 @@
 
 <body>
   <!--Navigation-->
-  <span style="font-size:30px;cursor:pointer; float: left; margin: 10px;" id="mainbox" class="openbtn"
-    onclick="openNav()">&#9776 </span>
 
   <div id=" myNav" class="overlay">
 
 
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav() ">×</a>
     <div class="overlay-content">
-      <a href="#home" class="" onclick="closeNav()">Home</a>
-      <a href="#about" class="" onclick="closeNav()">About</a>
-      <a href="#contact" class="" onclick="closeNav()">Contact</a>
+      <a href="#home" onclick="closeNav()">Home</a>
+      <a href="#about" onclick="closeNav()">About</a>
+      <a href="#contact" onclick="closeNav()">Contact</a>
     </div>
 
     <div class=" wrapper"></div>
   </div>
+
+  <span style="font-size:30px;cursor:pointer; float: left; margin: 10px;" id="mainbox" class="openbtn"
+    onclick="openNav()">&#9776 </span>
 
 
   <!--End navigation-->
@@ -95,12 +96,12 @@
 
   <script>
     function openNav() {
-      document.getElementById("myNav").style.display = "block";
-
+      document.getElementById("myNav").style.width = "100%";
     }
 
+    /* Close when someone clicks on the "x" symbol inside the overlay */
     function closeNav() {
-      document.getElementById("myNav").style.display = "none";
+      document.getElementById("myNav").style.width = "0%";
     }
 
 

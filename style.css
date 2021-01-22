@@ -60,13 +60,15 @@ html{
   .overlay {
    
     height: 100%;
-    width: 100%;
-    display:block;
+    width: 0;
+    display:none;
     position:fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.596);
+    overflow-x: hidden;
+    transition: 0.5s;
   }
   
   
@@ -119,7 +121,7 @@ html{
     h1{
       text-align: center;
     }
-
+   
   }
   
   .imgagemy {
