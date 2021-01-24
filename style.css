@@ -25,8 +25,8 @@ html{
   
   .image6{
     background-image: url(images/image7.jpg);
-    padding: 200px 100px;
-    margin: 100px;
+    padding: 100px 100px;
+    margin: 80px;
     background-attachment: fixed;
     background-clip: unset;
     
@@ -65,7 +65,7 @@ html{
     top: 0;
     left: 0;
     background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.596);
+    background-color: rgba(0, 0, 0, 0.877);
     overflow-y: hidden;
     transition: 0.5s;
   }
