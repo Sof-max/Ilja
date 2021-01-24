@@ -1,0 +1,26 @@
+@media only screen and (max-width: 992px){
+  .wrapper{
+    width: 750px;
+  }
+  .image6 {
+    padding: 550px 20px;
+    margin: 0;
+    background-attachment: fixed;
+    background-clip: unset;
+    background-size: cover;
+}
+h3 {
+  font-weight: bolder;
+  font-size: 150px;
+  color: #c70a0a;
+  text-align: center;
+  padding-top: center;
+  margin-bottom: 0%;
+  max-width: auto;
+  min-width: auto;
+}
+p{
+  margin: 40px;
+  font-size: 30px;
+}
+}

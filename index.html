@@ -5,97 +5,101 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="media.css">
 </head>
 
 
 <body>
+  <div class="wrapper">
 
-  <div id="myNav" class="overlay">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <div class="overlay-content">
-      <a href="#home" onclick="closeNav()">Home</a>
-      <a href="#about" onclick="closeNav()">About</a>
-      <a href="#contact" onclick="closeNav()">Contact</a>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="#home" onclick="closeNav()">Home</a>
+        <a href="#about" onclick="closeNav()">About</a>
+        <a href="#contact" onclick="closeNav()">Contact</a>
+      </div>
     </div>
+    <span
+      style="font-size:30px;cursor:pointer; float: left; margin: 10px; position: -webkit-sticky; position: sticky; top: 0;"
+      onclick="openNav()">&#9776 </span>
+
+
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+      }
+    </script>
+
+    <!--End navigation-->
+
+    <div id="main"></div>
+
+    <div id="home" class="w3-content">
+      <div class="image6">
+        <h3 class="name">Sofja</h3>
+
+
+
+      </div>
+
+      <!-- Start Content -->
+
+
+      <!-- About -->
+      <div id="about" class="navig" class="myphoto">
+        <h1 class="navig">About Myself</h1>
+        <img src="images/myphoto.jpg" alt="me" width="400" height="550" class="imgagemy">
+        <p>This is our band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris
+          nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+
+    <!-- End Content -->
+
+    <p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br><br>
+      <br>
+      <br><br>
+      <br>
+      <br><br>
+      <br>
+      <br><br>
+      <br>
+      <br>
+
+    </p>
+
+
+
+
+    <div class="footer" id="contact">
+      <h2>Contact</h2>
+      <div class="media">
+        <ul>
+          <a href="https://github.com/Sof-max"><i class="fa fa-github" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/03.26_sl"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.facebook.com/petrishevasofia"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="mailto:26.12.13.sofia@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+        </ul>
+
+        </ul>
+
+      </div>
+    </div>
+
   </div>
-  <span
-    style="font-size:30px;cursor:pointer; float: left; margin: 10px; position: -webkit-sticky; position: sticky; top: 0;"
-    onclick="openNav()">&#9776 </span>
-
-
-  <script>
-    function openNav() {
-      document.getElementById("myNav").style.height = "100%";
-    }
-
-    function closeNav() {
-      document.getElementById("myNav").style.height = "0%";
-    }
-  </script>
-
-  <!--End navigation-->
-
-  <div id="main"></div>
-
-  <div id="home" class="w3-content">
-    <div class="image6">
-      <h1 class="name">Sofja</h1>
-
-    </div>
-
-    <!-- Start Content -->
-
-
-    <!-- About -->
-    <div id="about" class="navig" class="myphoto">
-      <h1 class="navig">About Myself</h1>
-      <img src="images/myphoto.jpg" alt="me" width="400" height="550" class="imgagemy">
-      <p>This is our band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris
-        nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-  </div>
-
-  <!-- End Content -->
-
-  <p>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br><br>
-    <br>
-    <br><br>
-    <br>
-    <br><br>
-    <br>
-    <br><br>
-    <br>
-    <br>
-
-  </p>
-
-
-
-
-  <div class="footer" id="contact">
-    <h2>Contact</h2>
-    <div class="media">
-      <ul>
-        <a href="https://github.com/Sof-max"><i class="fa fa-github" aria-hidden="true"></i></a>
-        <a href="https://www.instagram.com/03.26_sl"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-        <a href="https://www.facebook.com/petrishevasofia"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-        <a href="mailto:26.12.13.sofia@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-      </ul>
-
-      </ul>
-
-    </div>
-  </div>
-
-
 
 
 

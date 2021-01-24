@@ -19,6 +19,10 @@ html{
    flex-direction: column;
   }
 
+  .clear{
+    clear:both;
+  }
+
   .name{
     flex-direction: column;
   }
@@ -38,7 +42,7 @@ html{
   h1{
     font-weight:bolder;
     font-size: 100px;
-    color: rgb(243, 6, 6);
+    color: #c70a0a;
     text-align: center;
     padding-top: 10px; 
     margin-bottom: 0%;
@@ -50,6 +54,18 @@ html{
   h2{
     font-size: 40px;
     text-align: center;
+  }
+
+  h3{
+    font-weight:bolder;
+    font-size: 105px;
+    color: #c70a0a;
+    text-align: center;
+    padding-top: 10px; 
+    margin-bottom: 0%;
+    max-width: auto;
+    min-width:auto;
+
   }
   
 
@@ -98,7 +114,7 @@ html{
     font-size: 60px;
   }
   
-  @media screen and (max-height: 450px) {
+  @media screen and (max-height: 420px) {
     .overlay {overflow-y: auto;}
     .overlay a {font-size: 20px}
     .overlay .closebtn {
@@ -106,6 +122,16 @@ html{
     top: 15px;
     right: 35px;
     }
+
+    .image6 {
+      padding: 100px 10px;
+      margin: 20px;
+  }
+
+
+
+
+
   }
   
   .imgagemy {
