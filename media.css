@@ -22,5 +22,22 @@ h3 {
 p{
   margin: 40px;
   font-size: 30px;
+  text-align: left;
+}
+h2 {
+  font-size: 60px;
+  text-align: center;
+}
+a {
+  list-style: none;
+  margin: 0px 50px;
+  display: inline-table;
+  font-size: 60px;
+  padding: 5px 5px;
+  color: #ffffff;
+  transition: .5s;
+}
+.style {
+    font-size: 60px;
 }
 }

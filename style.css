@@ -18,6 +18,14 @@ html{
    display: flex;
    flex-direction: column;
   }
+  .style{
+    font-size:30px;
+    cursor:pointer;
+     float: left; 
+     margin: 10px; 
+     position: -webkit-sticky; 
+     position: sticky; top: 0;
+  }
 
   .clear{
     clear:both;
@@ -48,12 +56,14 @@ html{
     margin-bottom: 0%;
     max-width: auto;
     min-width:auto;
+    font-family:'Vast Shadow', cursive;
   
   }
   
   h2{
     font-size: 40px;
     text-align: center;
+
   }
 
   h3{
@@ -65,6 +75,7 @@ html{
     margin-bottom: 0%;
     max-width: auto;
     min-width:auto;
+    font-family:'Vast Shadow', cursive;
 
   }
   
@@ -72,6 +83,8 @@ html{
   p {
     margin: 10px;
     text-align: center;
+    font-family:Courier New, monospace;
+    color: #f4f6fc;
   }
   .overlay {
     height: 0%;
