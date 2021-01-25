@@ -21,7 +21,7 @@ h3 {
 }
 p{
   margin: 40px;
-  font-size: 30px;
+  font-size: 28px;
   text-align: left;
 }
 h2 {
@@ -40,4 +40,13 @@ a {
 .style {
     font-size: 60px;
 }
+
+.overlay a{
+  font-size: 82px;
+}
+
+.overlay .closebtn {
+  font-size: 100px;
+}
+
 }

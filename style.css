@@ -49,20 +49,21 @@ html{
   
   h1{
     font-weight:bolder;
-    font-size: 100px;
+    font-size: 140px;
     color: #c70a0a;
     text-align: center;
     padding-top: 10px; 
     margin-bottom: 0%;
     max-width: auto;
     min-width:auto;
-    font-family:'Vast Shadow', cursive;
+    font-family:'Combo', cursive;
   
   }
   
   h2{
     font-size: 40px;
     text-align: center;
+    font-family:'Combo', cursive; 
 
   }
 
@@ -75,13 +76,14 @@ html{
     margin-bottom: 0%;
     max-width: auto;
     min-width:auto;
-    font-family:'Vast Shadow', cursive;
+    font-family:'Combo', cursive; 
+
 
   }
   
 
   p {
-    margin: 10px;
+    margin: 60px;
     text-align: center;
     font-family:Courier New, monospace;
     color: #f4f6fc;
@@ -154,7 +156,7 @@ html{
 }
 /* Style the footer */
 .footer {
-  background-color: #857f7f;
+  background-color: #857f7f77;
   padding: 10px;
   text-align:center;
 
@@ -170,10 +172,12 @@ a {
   padding: 10px 5px;
   color: #ffffff;
   transition: .5s;
+  font-family:'Combo', cursive; 
+
 }
 
 a:hover{
- color: #292929;
+ color: #920b0b;
  transition: .5s;
 } 
 
