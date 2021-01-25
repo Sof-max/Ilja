@@ -49,4 +49,8 @@ a {
   font-size: 100px;
 }
 
+.clear{
+  clear:both;
+}
+
 }
