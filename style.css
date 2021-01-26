@@ -61,7 +61,7 @@ html{
   }
   
   h2{
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     font-family:'Combo', cursive; 
 
@@ -129,25 +129,7 @@ html{
     font-size: 60px;
   }
   
-  @media screen and (max-height: 420px) {
-    .overlay {overflow-y: auto;}
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-    }
-
-    .image6 {
-      padding: 100px 10px;
-      margin: 20px;
-  }
-
-
-
-
-
-  }
+ 
   
   .imgagemy {
   float: right;
@@ -157,7 +139,7 @@ html{
 /* Style the footer */
 .footer {
   background-color: #857f7f77;
-  padding: 2px;
+  padding: 10px;
   text-align:center;
 
   margin-top:auto;
@@ -168,7 +150,7 @@ a {
   list-style:none;
   margin: 10px 30px;
   display:inline-table;
-  font-size: 45px;
+  font-size: 30px;
   padding: 10px 5px;
   color: #ffffff;
   transition: .5s;

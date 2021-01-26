@@ -9,6 +9,7 @@
     background-clip: unset;
     background-size: cover;
 }
+
 h3 {
   font-weight: bolder;
   font-size: 150px;
@@ -49,8 +50,25 @@ a {
   font-size: 100px;
 }
 
-.clear{
-  clear:both;
+
 }
+
+@media screen and (max-height: 420px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+
+  .image6 {
+    padding: 100px 10px;
+    margin: 20px;
+}
+
+
+
+
 
 }
