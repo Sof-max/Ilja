@@ -1,4 +1,6 @@
-@media only screen and (max-width: 992px){
+/*
+@media only screen and (max-width: 992px;1200px; 768px;480px;320px){
+  
   .wrapper{
     width: 750px;
   }
@@ -9,6 +11,7 @@
     background-clip: unset;
     background-size: cover;
 }
+
 
 h3 {
   font-weight: bolder;
@@ -71,4 +74,15 @@ a {
 
 
 
+}*
+
+*/
+
+@media(min-width: 320px){
+ .wrapper{
+   
+  }
+ h1{
+  text-align:cer;
+ }
 }

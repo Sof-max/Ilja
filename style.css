@@ -8,7 +8,7 @@ html{
   
   body{
     background-color: rgb(0, 0, 0);
-    color: white;
+    color:rgb(0, 0, 0);
     font-size: 21px;
     margin: 0;
     line-height: 1.6;
@@ -162,4 +162,13 @@ a:hover{
  color: #050404;
  transition: .5s;
 } 
+ 
+.container-xxl{
+  background-color: #050404;
+}
 
+section{
+  padding-top: 100px;
+  padding-bottom: 700px;
+  background-color:;
+}
